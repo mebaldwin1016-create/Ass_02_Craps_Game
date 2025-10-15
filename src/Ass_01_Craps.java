@@ -54,7 +54,7 @@ public class Ass_01_Craps
                         else if (newRollVal == 12)
                         {
                             System.out.println("INSTANT WIN");
-                            rollingForPoint = true;
+                            rollingForPoint = false;
                         }
                         else if (newRollVal == point)
                         {
